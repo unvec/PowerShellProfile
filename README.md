@@ -22,7 +22,7 @@ Two Ways for the profile, each one is ok! / 配置有两种方式，哪一种都
 
 ```powershell
   cd ([System.Environment]::GetFolderPath('MyDocuments'))
-  git clone --depth 1 https://github.com/UnVec/WindowsPowershellProfile Powershell          # Powershell 7
-  git clone --depth 1 https://github.com/UnVec/WindowsPowershellProfile WindowsPowershell   # if you use old powershell
+  git clone --depth 1 https://github.com/UnVec/PowerShellProfile Powershell          # Powershell 7
+  git clone --depth 1 https://github.com/UnVec/PowerShellProfile WindowsPowershell   # if you use old powershell
 ```
 
