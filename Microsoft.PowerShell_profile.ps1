@@ -37,4 +37,4 @@ Set-Alias pn    pnpm
 Set-Alias py    python
 
 # cd to home dir when launch powsershell by some apps without Specified Location.
-if ( (Get-Location).Path -match "\Windows\System32|MyDockFinder" ) { Set-Location $HOME }
+if ( (Get-Location).Path -match "\\Windows\\System32|MyDockFinder" ) { Set-Location $HOME }
